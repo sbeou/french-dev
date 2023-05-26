@@ -1,0 +1,49 @@
+@import 'src/utils/color.scss';
+
+.banner {
+    background: url('../../assets/bg-banner.webp');
+    background-size: cover;
+    background-attachment: fixed;
+    height:100vh;
+    display:flex;
+    align-items: center;
+    .content-banner {
+        display: flex;
+        gap:50px;
+        align-items: center;
+        .avatar {
+            width: 75%;
+        }
+        h1{
+            color:$primary;
+            font-weight:800;
+            font-size: 4em;
+        }
+        h2 {
+            font-size: 3em;
+        }
+        h3 {
+            font-size:2em;
+            padding-bottom:1em;
+        }
+        .skills {
+            display: flex;
+            gap:2em;
+            padding-top:2em;
+        }
+    }
+}
+@media (max-width: 769px) {
+    .banner {
+        display: block;
+        padding-top: 70px;
+        .content-banner {
+            flex-direction: column;
+            align-items: normal;
+            .avatar {
+                width: 50%;
+                margin:0 auto;
+            }
+        }
+    } 
+}

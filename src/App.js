@@ -1,24 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import Banner from "./components/Banner";
+import Header from "./components/Header";
+import Work from "./components/Work"
+import { Helmet } from 'react-helmet';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Helmet>
+        <title>Sebastien Guilet - Développer Front-End</title>
+        <meta name="description" content="Création de site, développement de aplication web" />
+      </Helmet>
+      <Header />
+      <main>
+          <Banner />
+          <div className="container">
+            <Work />
+          </div>
+      </main>
+    </>    
   );
 }
 

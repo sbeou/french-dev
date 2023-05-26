@@ -1,0 +1,170 @@
+{
+    "banner": {
+        
+            "title":"Sébastien Guilet",
+            "job": "Développeur Front-end",
+            "tag": "{design} {intégration} {développement}",
+            "description": "UX design et développeur front-end, j’ai su me diversifier pour aller toujours plus loin dans la réalisation de projets web. Je puise mon inspiration dans les dernières tendances tout en y apportant ma touche personnelle.Je conçois et réalise des sites web du cahier des charges à la mise en ligne."
+        
+    },
+    "socialNetwork": [
+        {
+            "url": "https://github.com/sbeou",
+            "icon": "fab fa-github"
+        },
+        {
+            "url": "https://www.instagram.com/webdesignalafrancaise/",
+            "icon": "fab fa-instagram"
+        },
+        {
+            "url": "https://www.linkedin.com/in/sebastienguilet/",
+            "icon": "fab fa-linkedin"
+        }
+    ],
+    "menu": [
+        {
+            "url": "banner",
+            "label": "Présentation"
+        },
+        {
+            "url": "work",
+            "label": "Réalisation"         
+        },
+        {
+            "url": "skills",
+            "label": "Compétences"
+        },
+        {
+            "url": "timeLine",
+            "label": "Time Line"
+        },
+        {
+            "url": "contact",
+            "label": "Contact"
+        }
+    ],
+    "works": [
+        {
+            "id": "work_1",
+            "title": "webdesign à la française",
+            "category": "Wordpress",
+            "tag": [
+                "Design UX",
+                "Programation PHP/SQL",
+                "Développement Front-end HTML/CSS/JavaScript/JQuery"
+            ],
+            "description": "Site responsif multilangue Wordpress développé avec Bootstrap, animation CSS pour une agence multimédia.",
+            "img": "webdesignalafrancaise.webp",
+            "github": "https://github.com/sbeou/sg-one-page.git",
+            "url": "https://webdesignalafrancaise.com.br/"
+        },
+        {
+            "id": "work_2",
+            "title": "Argent Bank",
+            "category": "React",
+            "tag": [
+                "React",
+                "Redux",
+                "Développement Front-end HTML/CSS/JavaScript"
+            ],
+            "description": "Application Web responsif développer avec React et Redux pour une banque.",
+            "img": "argent-bank-website.webp",
+            "github": "https://github.com/sbeou/argent-bank-website",
+            "url": ""
+        },
+        {
+            "id": "work_3",
+            "title": "Tauri Engneria",
+            "category": "Design",
+            "tag": [
+                "Design UX",
+                "Branding",
+                "Développement Front-end HTML/CSS/JavaScript"
+            ],
+            "description": "Création de l'identité visuelle (logo) et du site Web responsif pour un cabinet d'architecte à Salvador.",
+            "img": "taurieng.webp",
+            "github": "",
+            "url": "https://taurieng.com.br/"
+        },
+        {
+            "id": "work_4",
+            "title": "Mônica Aplonário",
+            "category": "Design",
+            "tag": [
+                "Design UX",
+                "Branding",
+                "Développement Front-end HTML/CSS/JavaScript"
+            ],
+            "description": "Création de l'identité visuelle (logo) et du site Web responsif pour une avocate à Salvador.",
+            "img": "apolinarioadv.webp",
+            "github": "",
+            "url": "https://apolinarioadv.com.br/"
+        },
+        {
+            "id": "work_5",
+            "title": "Café com Informação",
+            "category": "Blog",
+            "tag": [
+                "Design UX",
+                "Branding",
+                "Développement Front-end HTML/CSS/JavaScript"
+            ],
+            "description": "Création de l'identité visuelle (logo) et du site Web responsif pour un blog sur l'économie à Salvador.",
+            "img": "cafecominformacao.webp",
+            "github": "",
+            "url": "https://cafecominformacao.com.br/"
+        },
+        {
+            "id": "work_6",
+            "title": "Camara Comercial Argentina Bahia",
+            "category": "Wordpress",
+            "tag": [
+                "Design UX",
+                "Développement Front-end HTML/CSS/JavaScript"
+            ],
+            "description": "Création du site Web responsif pour la Chambre de Commerca Argentie et l'État de Bahia à Salvador.",
+            "img": "cecab.webp",
+            "github": "",
+            "url": "https://camaraargentinabahia.com/"
+        },
+        {
+            "id": "work_7",
+            "title": "Kasa",
+            "category": "React",
+            "tag": [
+                "React",
+                "Développement Front-end HTML/CSS/JavaScript"
+            ],
+            "description": "Site Web responsif pour une agence de loca immobilière.",
+            "img": "kasa.webp",
+            "github": "https://github.com/sbeou/kasa",
+            "url": "https://kasa.french.br/"
+        },
+        {
+            "id": "work_8",
+            "title": "Loja Fundação José Silveira",
+            "category": "E-commerce",
+            "tag": [
+                "Design UX",
+                "Développement Front-end HTML/CSS/JavaScript"
+            ],
+            "description": "E-commerce responsif pour une institution filantropique à Salvador.",
+            "img": "lojafjs.webp",
+            "github": "",
+            "url": "https://loja.fjs.org.br/"
+        },
+        {
+            "id": "work_9",
+            "title": "Condomínio Mondial Salvador",
+            "category": "Wordpress",
+            "tag": [
+                "Design UX",
+                "Développement Front-end HTML/CSS/JavaScript"
+            ],
+            "description": "Site Web responsif pour un hotel à Salvador.",
+            "img": "mondialsalvador.webp",
+            "github": "",
+            "url": "https://condominiomondial.salvador.br/"
+        }
+    ]
+}
