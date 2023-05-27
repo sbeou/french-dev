@@ -20,3 +20,8 @@
     align-items: center;
     font-size: 1.5em;
 }
+@media (max-widt:400px) {
+    .vertical-timeline--two-columns .vertical-timeline-element--work .vertical-timeline-element-content {
+        text-align: left;
+    }
+}
