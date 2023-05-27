@@ -46,17 +46,17 @@
     "works": [
         {
             "id": "work_1",
-            "title": "webdesign à la française",
-            "category": "Wordpress",
+            "title": "Mônica Aplonário",
+            "category": "Design",
             "tag": [
                 "Design UX",
-                "Programation PHP/SQL",
-                "Développement Front-end HTML/CSS/JavaScript/JQuery"
+                "Branding",
+                "Développement Front-end HTML/CSS/JavaScript"
             ],
-            "description": "Site responsif multilangue Wordpress développé avec Bootstrap, animation CSS pour une agence multimédia.",
-            "img": "webdesignalafrancaise.webp",
-            "github": "https://github.com/sbeou/sg-one-page.git",
-            "url": "https://webdesignalafrancaise.com.br/"
+            "description": "Création de l'identité visuelle (logo) et du site Web responsif pour une avocate à Salvador.",
+            "img": "apolinarioadv.webp",
+            "github": "",
+            "url": "https://apolinarioadv.com.br/"
         },
         {
             "id": "work_2",
@@ -74,34 +74,6 @@
         },
         {
             "id": "work_3",
-            "title": "Tauri Engneria",
-            "category": "Design",
-            "tag": [
-                "Design UX",
-                "Branding",
-                "Développement Front-end HTML/CSS/JavaScript"
-            ],
-            "description": "Création de l'identité visuelle (logo) et du site Web responsif pour un cabinet d'architecte à Salvador.",
-            "img": "taurieng.webp",
-            "github": "",
-            "url": "https://taurieng.com.br/"
-        },
-        {
-            "id": "work_4",
-            "title": "Mônica Aplonário",
-            "category": "Design",
-            "tag": [
-                "Design UX",
-                "Branding",
-                "Développement Front-end HTML/CSS/JavaScript"
-            ],
-            "description": "Création de l'identité visuelle (logo) et du site Web responsif pour une avocate à Salvador.",
-            "img": "apolinarioadv.webp",
-            "github": "",
-            "url": "https://apolinarioadv.com.br/"
-        },
-        {
-            "id": "work_5",
             "title": "Café com Informação",
             "category": "Blog",
             "tag": [
@@ -115,7 +87,7 @@
             "url": "https://cafecominformacao.com.br/"
         },
         {
-            "id": "work_6",
+            "id": "work_4",
             "title": "Camara Comercial Argentina Bahia",
             "category": "Wordpress",
             "tag": [
@@ -128,7 +100,7 @@
             "url": "https://camaraargentinabahia.com/"
         },
         {
-            "id": "work_7",
+            "id": "work_5",
             "title": "Kasa",
             "category": "React",
             "tag": [
@@ -138,10 +110,10 @@
             "description": "Site Web responsif pour une agence de loca immobilière.",
             "img": "kasa.webp",
             "github": "https://github.com/sbeou/kasa",
-            "url": "https://kasa.french.br/"
+            "url": "https://kasa.french.dev.br/"
         },
         {
-            "id": "work_8",
+            "id": "work_6",
             "title": "Loja Fundação José Silveira",
             "category": "E-commerce",
             "tag": [
@@ -154,7 +126,7 @@
             "url": "https://loja.fjs.org.br/"
         },
         {
-            "id": "work_9",
+            "id": "work_7",
             "title": "Condomínio Mondial Salvador",
             "category": "Wordpress",
             "tag": [
@@ -165,6 +137,143 @@
             "img": "mondialsalvador.webp",
             "github": "",
             "url": "https://condominiomondial.salvador.br/"
+        },
+        {
+            "id": "work_8",
+            "title": "Tauri Engneria",
+            "category": "Design",
+            "tag": [
+                "Design UX",
+                "Branding",
+                "Développement Front-end HTML/CSS/JavaScript"
+            ],
+            "description": "Création de l'identité visuelle (logo) et du site Web responsif pour un cabinet d'architecte à Salvador.",
+            "img": "taurieng.webp",
+            "github": "",
+            "url": "https://taurieng.com.br/"
+        },
+        {
+            "id": "work_9",
+            "title": "webdesign à la française",
+            "category": "Wordpress",
+            "tag": [
+                "Design UX",
+                "Programation PHP/SQL",
+                "Développement Front-end HTML/CSS/JavaScript/JQuery"
+            ],
+            "description": "Site responsif multilangue Wordpress développé avec Bootstrap, animation CSS pour une agence multimédia.",
+            "img": "webdesignalafrancaise.webp",
+            "github": "https://github.com/sbeou/sg-one-page.git",
+            "url": "https://webdesignalafrancaise.com.br/"
         }
-    ]
+    ],
+    "skills": [
+        {
+            "title": "HTML",
+            "icon": "fab fa-html5"
+        },
+        {
+            "title": "CSS",
+            "icon": "fab fa-css3-alt" 
+        },
+        {
+            "title": "JavaScript",
+            "icon": "fab fa-js" 
+        },
+        {
+            "title": "Sass",
+            "icon": "fab fa-sass" 
+        },
+        {
+            "title": "Bootstrap",
+            "icon": "fab fa-bootstrap" 
+        },
+        {
+            "title": "React",
+            "icon": "fab fa-react" 
+        },
+        {
+            "title": "WordPress",
+            "icon": "fab fa-wordpress" 
+        },
+        {
+            "title": "Design UX",
+            "icon": "far fa-object-group" 
+        },
+        {
+            "title": "Branding",
+            "icon": "far fa-bezier-curve" 
+        }
+    ],
+    "timeLine": [
+        {
+            "title": "Intégrateur Web",
+            "location": "Open Class Room - France",
+            "date": "2023",
+            "description": "Développement Front-End (HTML, CSS, JavaScript, React, Redux), Optimisation SEO, Gestion de projet Agil",
+            "icon": "fad fa-user-graduate"
+        },
+        {
+            "title": "Programeur Visuel",
+            "location": "Fondation José Silveira - Salvador, Brasil",
+            "date": "2018 - Maintenant",
+            "description": "Communication visuel, Branding, création et manutention de site web (design et intégration), Photographie événementiel",
+            "icon": "fad fa-briefcase"
+        },
+        {
+            "title": "Bootcamp Online - Desenvolvedor Mobile Apps",
+            "location": "IGTI Brazil",
+            "date": "2021",
+            "description": "Android with Java, React Native, Flutter, Dart",
+            "icon": "fad fa-user-graduate"
+        },
+        {
+            "title": "Designer/Intégrateur Front End freelance",
+            "location": "Salvador, Brasil",
+            "date": "2014 - 2018",
+            "description": "Communication visuel, Branding, création et manutention de site web (design et intégration), gestion d´hégerment web, gestion de client",
+            "icon": "fad fa-briefcase"
+        },
+        {
+            "title": "Designer/Intégrateur Front End",
+            "location": "Grupo A2 - Salvador, Brasil",
+            "date": "2013 - 2014",
+            "description": "Communication visuel, Branding, création de site web (design et intégration)",
+            "icon": "fad fa-briefcase"
+        },
+        {
+            "title": "Designer/Intégrateur Front End",
+            "location": "Digital Age - Paris, France",
+            "date": "2008 - 2012",
+            "description": "Communication visuel, Branding, création de site web (design et intégration)",
+            "icon": "fad fa-briefcase"
+        },
+        {
+            "title": "Webmaster",
+            "location": "ESIC - Paris, France",
+            "date": "2008",
+            "description": "Intégration de site web (HTML, CSS, JavaScript)",
+            "icon": "fad fa-user-graduate"
+        },
+        {
+            "title": "Infographiste Metteur en Page",
+            "location": "AFPA - Cannes, France",
+            "date": "2007",
+            "description": "Création d'indentité visuel, PAO",
+            "icon": "fad fa-user-graduate"
+        },
+        {
+            "title": "Bac Pro Photo",
+            "location": "LEPR Blaise Pascal - Marseille, France",
+            "date": "2000",
+            "description": "Photo en studio, reportage, laboratoire, retouche photo",
+            "icon": "fad fa-user-graduate"
+        }
+    ],
+    "contact": {
+        "email": "sbeou13@gmail.com",
+        "phone": "+55 (71) 98511-9978",
+        "whatsapp": "https://api.whatsapp.com/send?phone=5571985119978&text="
+        
+    }
 }

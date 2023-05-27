@@ -1,0 +1,18 @@
+@import 'src/utils/color.scss';
+#contact {
+    background-color:#162020;
+    color:white;
+}
+.contact {
+    display: flex;
+    justify-content: center;
+    gap:30px;
+    font-size:1.2em;
+    a {
+        text-decoration: none;
+        color:white;
+        &:hover {
+            color:$primary;
+        }
+    }
+}

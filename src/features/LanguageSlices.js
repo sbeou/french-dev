@@ -47,6 +47,9 @@ export const languageSlice = createSlice({
       state.menu = payload.menu;
       state.banner = payload.banner;
       state.works = payload.works;
+      state.skills = payload.skills;
+      state.timeLine = payload.timeLine;
+      state.contact = payload.contact;
     },
     [fetchFrench.rejected]: (state) => {
       console.log('fetchFrench');

@@ -1,5 +1,8 @@
 import Banner from "./components/Banner";
+import Contact from "./components/Contact";
 import Header from "./components/Header";
+import Skills from "./components/Skills";
+import TimeLine from "./components/TimeLine";
 import Work from "./components/Work"
 import { Helmet } from 'react-helmet';
 
@@ -13,9 +16,10 @@ function App() {
       <Header />
       <main>
           <Banner />
-          <div className="container">
-            <Work />
-          </div>
+          <Work />
+          <Skills />
+          <TimeLine />
+          <Contact />
       </main>
     </>    
   );
