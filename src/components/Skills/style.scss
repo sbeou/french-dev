@@ -4,7 +4,7 @@
     background-color: #f5f5f5;
     padding: 50px 0;
 }
-.skills {
+#skills .skills {
     display: flex;
     gap:30px;
     flex-wrap: wrap;
@@ -30,7 +30,7 @@
     }
 }
 @media (max-width:768px) {
-    .skills {
+    #skills .skills {
         gap:10px;
         .item {
             padding: 15px;
