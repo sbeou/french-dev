@@ -32,7 +32,7 @@ function Contact() {
                     </LoaderWrapper>    
                     ) : (
                         <div className='contact'>
-                            <Link to={contact?.email}><i className="fad fa-envelope-open-text"></i> {contact?.email} </Link>
+                            <Link to={`mailto:${contact?.email}`}><i className="fad fa-envelope-open-text"></i> {contact?.email} </Link>
                             <Link to={contact?.whatsapp}><i className="fab fa-whatsapp"></i> {contact?.phone} </Link>
                             {socialNetwork?.map((contas, index) => (
                                 <Link key={`socialmediaFooter-${index}`} to={contas.url} target="_blank">
