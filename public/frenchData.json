@@ -4,7 +4,7 @@
             "title":"Sébastien Guilet",
             "job": "Développeur Front-end",
             "tag": "{design} {intégration} {développement}",
-            "description": "UX design et développeur front-end, j’ai su me diversifier pour aller toujours plus loin dans la réalisation de projets web. Je puise mon inspiration dans les dernières tendances tout en y apportant ma touche personnelle.Je conçois et réalise des sites web du cahier des charges à la mise en ligne."
+            "description": "UX design et développeur front-end, j’ai su me diversifier pour aller toujours plus loin dans la réalisation de projets web. Je puise mon inspiration dans les dernières tendances tout en y apportant ma touche personnelle. Je conçois et réalise des sites web du cahier des charges à la mise en ligne."
         
     },
     "socialNetwork": [
@@ -54,9 +54,14 @@
                 "Développement Front-end HTML/CSS/JavaScript"
             ],
             "description": "Création de l'identité visuelle (logo) et du site Web responsif pour une avocate à Salvador.",
-            "img": "apolinarioadv.webp",
-            "github": "",
-            "url": "https://apolinarioadv.com.br/"
+            "img": "apolinarioadv-2.jpg",
+            "url": "https://apolinarioadv.com.br/",
+            "images": [
+                "apolinarioadv-1.jpg",
+                "apolinarioadv-2.jpg",
+                "apolinarioadv-3.jpg"
+                
+            ]
         },
         {
             "id": "work_2",
@@ -70,24 +75,51 @@
             "description": "Application Web responsif développer avec React et Redux pour une banque.",
             "img": "argent-bank-website.webp",
             "github": "https://github.com/sbeou/argent-bank-website",
-            "url": ""
+            "url": "",
+            "images": [
+                "argentbank-1.jpg",
+                "argentbank-2.jpg",
+                "argentbank-3.jpg"
+            ]
         },
         {
             "id": "work_3",
-            "title": "Café com Informação",
-            "category": "Blog",
+            "title": "Banana King",
+            "category": "Photographie",
             "tag": [
-                "Design UX",
-                "Branding",
-                "Développement Front-end HTML/CSS/JavaScript"
+                "Cadrage",
+                "Traitement photo"
             ],
-            "description": "Création de l'identité visuelle (logo) et du site Web responsif pour un blog sur l'économie à Salvador.",
-            "img": "cafecominformacao.webp",
-            "github": "",
-            "url": "https://cafecominformacao.com.br/"
+            "description": "Réalisation de photographie pour un groupe Rock à l'abatoire de Marseille.",
+            "img": "bananaking-1.jpg",
+            "images": [
+                "bananaking-1.jpg",
+                "bananaking-2.jpg",
+                "bananaking-3.jpg",
+                "bananaking-4.jpg"
+            ]
         },
         {
             "id": "work_4",
+            "title": "Bazilia in Black",
+            "category": "Photographie",
+            "tag": [
+                "Cadrage",
+                "Traitement photo"
+            ],
+            "description": "Réalisation de photographie en noir et blanc dans la capital brésiliène.",
+            "img": "brazilia.jpg",
+            "images": [
+                "brazilia.jpg",
+                "brazilia-2.jpg",
+                "brazilia-3.jpg",
+                "brazilia-4.jpg",
+                "brazilia-5.jpg",
+                "brazilia-6.jpg"
+            ]
+        },
+        {
+            "id": "work_5",
             "title": "Camara Comercial Argentina Bahia",
             "category": "Wordpress",
             "tag": [
@@ -96,11 +128,15 @@
             ],
             "description": "Création du site Web responsif pour la Chambre de Commerca Argentie et l'État de Bahia à Salvador.",
             "img": "cecab.webp",
-            "github": "",
-            "url": "https://camaraargentinabahia.com/"
+            "url": "https://camaraargentinabahia.com/",
+            "images":[
+                "cecab-1.jpg",
+                "cecab-2.jpg",
+                "cecab-3.jpg"
+            ]
         },
         {
-            "id": "work_5",
+            "id": "work_6",
             "title": "Kasa",
             "category": "React",
             "tag": [
@@ -110,10 +146,15 @@
             "description": "Site Web responsif pour une agence de loca immobilière.",
             "img": "kasa.webp",
             "github": "https://github.com/sbeou/kasa",
-            "url": "https://kasa.french.dev.br/"
+            "url": "https://kasa.french.dev.br/",
+            "images":[
+                "kasa-1.jpg",
+                "kasa-2.jpg",
+                "kasa-3.jpg"
+            ]
         },
         {
-            "id": "work_6",
+            "id": "work_7",
             "title": "Loja Fundação José Silveira",
             "category": "E-commerce",
             "tag": [
@@ -123,20 +164,12 @@
             "description": "E-commerce responsif pour une institution filantropique à Salvador.",
             "img": "lojafjs.webp",
             "github": "",
-            "url": "https://loja.fjs.org.br/"
-        },
-        {
-            "id": "work_7",
-            "title": "Condomínio Mondial Salvador",
-            "category": "Wordpress",
-            "tag": [
-                "Design UX",
-                "Développement Front-end HTML/CSS/JavaScript"
-            ],
-            "description": "Site Web responsif pour un hotel à Salvador.",
-            "img": "mondialsalvador.webp",
-            "github": "",
-            "url": "https://condominiomondial.salvador.br/"
+            "url": "https://loja.fjs.org.br/",
+            "images": [
+                "lojafjs-1.jpg",
+                "lojafjs-2.jpg",
+                "lojafjs-3.jpg"
+            ]
         },
         {
             "id": "work_8",
@@ -148,9 +181,14 @@
                 "Développement Front-end HTML/CSS/JavaScript"
             ],
             "description": "Création de l'identité visuelle (logo) et du site Web responsif pour un cabinet d'architecte à Salvador.",
-            "img": "taurieng.webp",
+            "img": "taurieng-1.jpg",
             "github": "",
-            "url": "https://taurieng.com.br/"
+            "url": "https://taurieng.com.br/",
+            "images": [
+                "taurieng-2.jpg",
+                "taurieng-4.jpg",
+                "taurieng-3.jpg"
+            ]
         },
         {
             "id": "work_9",
@@ -164,7 +202,12 @@
             "description": "Site responsif multilangue Wordpress développé avec Bootstrap, animation CSS pour une agence multimédia.",
             "img": "webdesignalafrancaise.webp",
             "github": "https://github.com/sbeou/sg-one-page.git",
-            "url": "https://webdesignalafrancaise.com.br/"
+            "url": "https://webdesignalafrancaise.com.br/",
+            "images":[
+                "walf-1.jpg",
+                "walf-2.jpg",
+                "walf-3.jpg"
+            ]
         }
     ],
     "skills": [
@@ -203,11 +246,15 @@
         {
             "title": "Branding",
             "icon": "far fa-bezier-curve" 
+        },
+        {
+            "title": "Photographie",
+            "icon": "fas fa-camera-alt"
         }
     ],
     "timeLine": [
         {
-            "title": "Intégrateur Web",
+            "title": "Formation Intégrateur Web",
             "location": "Open Class Room - France",
             "date": "2023",
             "description": "Développement Front-End (HTML, CSS, JavaScript, React, Redux), Optimisation SEO, Gestion de projet Agil",
@@ -249,18 +296,25 @@
             "icon": "fad fa-briefcase"
         },
         {
-            "title": "Webmaster",
+            "title": "Formation Webmaster",
             "location": "ESIC - Paris, France",
             "date": "2008",
             "description": "Intégration de site web (HTML, CSS, JavaScript)",
             "icon": "fad fa-user-graduate"
         },
         {
-            "title": "Infographiste Metteur en Page",
+            "title": "Formation Infographiste Metteur en Page",
             "location": "AFPA - Cannes, France",
             "date": "2007",
             "description": "Création d'indentité visuel, PAO",
             "icon": "fad fa-user-graduate"
+        },
+        {
+            "title": "Assistant",
+            "location": "Photo Services - Marseille, France",
+            "date": "2001 - 2006",
+            "description": "Tirage Photo, retouche numérique, gestion client",
+            "icon": "fad fa-briefcase"
         },
         {
             "title": "Bac Pro Photo",

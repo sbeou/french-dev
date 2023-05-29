@@ -2,10 +2,13 @@ import Modal from 'react-modal';
 import { useDispatch, useSelector } from 'react-redux'
 import { Loader, LoaderWrapper } from "../../utils/loader";
 import { fetchFrench, languageSelector, clearState } from "../../features/LanguageSlices";
-import './style.scss'
 import Masonry from 'react-masonry-css'
 import { useEffect, useState, useCallback } from 'react';
 import { Link } from 'react-router-dom';
+import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
+import { Carousel } from 'react-responsive-carousel';
+import './style.scss'
+
 function Work() {
     const dispatch = useDispatch();
     useEffect(() => {
@@ -68,7 +71,7 @@ function Work() {
                         <>
                             <ul className="filterCat">
                                 <li onClick={() => setCategoryFiltered()}>Tous</li>
-                                {filterCat.map((cat, index) => (
+                                {filterCat.sort().map((cat, index) => (
                                 <li key={`cat-${index}`} onClick={() => setCategoryFiltered(cat)}>{cat}</li>  
                                 ))}
                             </ul>
@@ -95,13 +98,28 @@ function Work() {
                                 </button>
                                 {workId ?(workModal.map((workModal) => (
                                     <div key={`modal-${workModal.id}`} className='modal-work'>
-                                        <img src={`/img/${workModal.img}`} alt={workModal.title} />
+                                        {workModal.images ? (
+                                          <Carousel
+                                            infiniteLoop={true}
+                                            showStatus={false}
+                                            showIndicators={true}
+                                            showThumbs={false}
+                                          >
+                                            {workModal.images.map((image, index) => (
+                                                <div key={`image_${index}`}>
+                                                    <img src={`img/${image}`} alt={image} />
+                                                </div>
+                                            ))}
+                                          </Carousel>
+                                        ) : (
+                                            <><img src={`/img/${workModal.img}`} alt={workModal.title} /></>
+                                        )}
                                         <h2>{workModal.title}</h2>
                                         <h3>{workModal.category}</h3>
                                         <p>{workModal.description}</p>
                                         <ul className='tag'>
                                             {workModal.tag.map((tag) => (
-                                                <li><i className="fad fa-star"></i> {tag}</li>
+                                                <li key={tag}><i className="fad fa-star"></i> {tag}</li>
                                             ))}
                                         </ul>
                                         <div className='btn'>
