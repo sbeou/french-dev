@@ -2,8 +2,8 @@ import { Link } from "react-router-dom"
 import './style.scss'
 import { useState, useEffect } from "react"
 import { useDispatch, useSelector } from 'react-redux'
-import { Loader, LoaderWrapper } from "../../utils/loader";
-import { fetchFrench, languageSelector, clearState } from "../../features/LanguageSlices";
+import { fetchDataLanguage, languageSelector, clearState } from "../../features/LanguageSlices";
+import detectBrowserLanguage from 'detect-browser-language'
 
 function Header() {
     const handleClick = (ref) => {
@@ -11,15 +11,26 @@ function Header() {
         setCollapse()
     }
     const [visible, setVisible] = useState('close')
+    const [language, setLanguage] = useState('french')
     const setCollapse = () => {
         setVisible(visible === 'close' ? 'open' : 'close')
     }
     const dispatch = useDispatch();
     useEffect(() => {
-        dispatch(fetchFrench());
-    }, [dispatch]);
+        const langugeBrowser = detectBrowserLanguage()
+        if(langugeBrowser === 'pt-BR' || langugeBrowser === 'pt') {
+            setLanguage('portugues')
+        }
+        if(langugeBrowser === 'fr' || langugeBrowser === 'fr-fr' || langugeBrowser === 'fr-be' || langugeBrowser === 'fr-ca' || langugeBrowser === 'fr-lu' || langugeBrowser === 'fr-mc' || langugeBrowser === 'fr-ch') {
+            setLanguage('french')
+        }
+    }, [setLanguage])
+
+    useEffect(() => {
+        dispatch(fetchDataLanguage(language));
+    }, [dispatch, language]);
     
-    const { isError,socialNetwork, isFetching, menu } = useSelector(languageSelector);
+    const { isError,socialNetwork, menu } = useSelector(languageSelector);
     useEffect(() => {
         return () => {
         dispatch(clearState());
@@ -34,34 +45,25 @@ function Header() {
     return (
         <div className="header">
             <nav>
-                {isFetching ? (
-                    <LoaderWrapper>
-                        <Loader />
-                    </LoaderWrapper>    
-                    ) : ( 
-                        socialNetwork?.map((contas, index) => (
-                            <Link key={`socialmedia-${index}`} to={contas.url} target="_blank">
-                                <i className={contas.icon}></i> 
-                            </Link>
-                        ))
-                    )
-                }
+                <ul className="translation">
+                    <li className="active"><i className="fad fa-language"></i> {language}</li>
+                    <li onClick={() => setLanguage('french')}>French</li>
+                    <li onClick={() => setLanguage('portugues')}>Portugues</li>
+                </ul>
+                {socialNetwork?.map((contas, index) => (
+                    <Link key={`socialmedia-${index}`} to={contas.url} target="_blank">
+                        <i className={contas.icon}></i> 
+                    </Link>
+                ))}
                 <Link onClick={() => setCollapse()}>
                     <i className="fad fa-bars"></i>
                 </Link>
                 <div className={`menu collapse ${visible}`}>
-                    {isFetching ? (
-                        <LoaderWrapper>
-                            <Loader />
-                        </LoaderWrapper>    
-                        ) : ( 
-                            menu?.map((item, index) => (
-                                <Link key={`menu-${index}`} onClick={() => handleClick(item.url)}>
-                                    {item.label}
-                                </Link>
-                            ))
-                        )
-                    }
+                    {menu?.map((item, index) => (
+                        <Link key={`menu-${index}`} onClick={() => handleClick(item.url)}>
+                            {item.label}
+                        </Link>
+                    ))}
                 </div>
             </nav>
         </div>

@@ -1,10 +1,20 @@
 import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
 
-export const fetchFrench = createAsyncThunk(
-  'lingage/fetchFrench',
-  async ( thunkAPI) => {
+export const fetchDataLanguage = createAsyncThunk(
+  'language/fetchDataLanguage',
+  async (setLanguage, thunkAPI) => {
+    let languageJson
+    if(setLanguage === "french"){
+      languageJson = '/frenchData.json'
+    }
+    if(setLanguage === "portugues"){
+      languageJson = '/portuguesData.json'
+    }
+    if(setLanguage === "english"){
+      languageJson = '/englishData.json'
+    }
     try {
-      const response = await fetch('/frenchData.json');
+      const response = await fetch(languageJson);
       const data = await response.json();
 
       if (response.status === 200) {
@@ -37,10 +47,10 @@ export const languageSlice = createSlice({
     },
   },
   extraReducers: {
-    [fetchFrench.pending]: (state) => {
+    [fetchDataLanguage.pending]: (state) => {
       state.isFetching = true;
     },
-    [fetchFrench.fulfilled]: (state, { payload }) => {
+    [fetchDataLanguage.fulfilled]: (state, { payload }) => {
       state.isFetching = false;
       state.isSuccess = true;
       state.socialNetwork = payload.socialNetwork;
@@ -51,8 +61,8 @@ export const languageSlice = createSlice({
       state.timeLine = payload.timeLine;
       state.contact = payload.contact;
     },
-    [fetchFrench.rejected]: (state) => {
-      console.log('fetchFrench');
+    [fetchDataLanguage.rejected]: (state) => {
+      console.log('fetchDataLanguage');
       state.isFetching = false;
       state.isError = true;
     },

@@ -21,6 +21,30 @@
                 font-size: 2em;
             }
         }
+        .translation {
+            border:solid 1px $primary;
+            cursor: pointer;
+            text-transform: capitalize;
+            border-radius: 1em;
+            text-align: center;
+            height:1.55em;
+            overflow: hidden;
+            transition: all 0.3s ease-in-out;
+            font-size: 1.5em;
+            li {
+                padding: 5px 15px;
+                background-color: rgba($color: white, $alpha: 0.3);
+                transition: all 0.3s ease-in-out;
+            }
+            li.active, li:hover {
+                background-color: transparent;
+            }
+            &:hover {
+                height: auto;
+                background-color: $primary;
+                color: white;
+            }
+        }
         .menu {
             position: absolute;
             background-color: white;

@@ -20,6 +20,14 @@
     align-items: center;
     font-size: 1.5em;
 }
+.vertical-timeline--two-columns .vertical-timeline-element-content .vertical-timeline-element-date::before {
+    font-family: "Font Awesome 5 Pro";
+    font-weight: 300;
+    content: "\f073";
+    margin: 0 5px;
+}
+.vertical-timeline--two-columns .vertical-timeline-element.vertical-timeline-element--no-children .vertical-timeline-element-date::before
+{display:none;}
 @media (max-width:1024px) {
     .vertical-timeline--two-columns .vertical-timeline-element--work .vertical-timeline-element-content {
         text-align: left;

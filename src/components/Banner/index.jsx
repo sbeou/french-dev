@@ -6,16 +6,15 @@ import REACT from '../../assets/react.webp'
 import './style.scss'
 import { useEffect } from "react"
 import { useDispatch, useSelector } from 'react-redux'
-import { Loader, LoaderWrapper } from "../../utils/loader";
-import { fetchFrench, languageSelector, clearState } from "../../features/LanguageSlices";
+import { fetchDataLanguage, languageSelector, clearState } from "../../features/LanguageSlices";
 
 function Banner() {
     const dispatch = useDispatch();
     useEffect(() => {
-        dispatch(fetchFrench());
+        dispatch(fetchDataLanguage());
     }, [dispatch]);
     
-    const { isError,isFetching, banner } = useSelector(languageSelector);
+    const { isError,banner } = useSelector(languageSelector);
     useEffect(() => {
         return () => {
         dispatch(clearState());
@@ -35,18 +34,10 @@ function Banner() {
                         <img src={Sebastien} alt="Sébastien Guilet developpeur Front-End" />
                     </div>
                     <div className="text">
-                        {isFetching ? (
-                            <LoaderWrapper>
-                                <Loader />
-                            </LoaderWrapper>    
-                            ) : ( 
-                                <>
-                                    <h1>{banner?.title}</h1>
-                                    <h2>{banner?.job}</h2>
-                                    <h3>{banner?.tag}</h3>
-                                    <p>{banner?.description}</p>
-                                </>
-                            )}
+                        <h1>{banner?.title}</h1>
+                        <h2>{banner?.job}</h2>
+                        <h3>{banner?.tag}</h3>
+                        <p>{banner?.description}</p>
                         <ul className="skills">
                             <li><img src={HTML} alt="HTML" /></li>
                             <li><img src={CSS} alt="CSS" /></li>
