@@ -2,9 +2,9 @@
     "banner": {
         
             "title":"Sébastien Guilet",
-            "job": "Développeur Front-end",
-            "tag": "{design} {intégration} {développement}",
-            "description": "UX design et développeur front-end, j’ai su me diversifier pour aller toujours plus loin dans la réalisation de projets web. Je puise mon inspiration dans les dernières tendances tout en y apportant ma touche personnelle. Je conçois et réalise des sites web du cahier des charges à la mise en ligne."
+            "job": "Front-end Developer",
+            "tag": "{design} {integration} {development}",
+            "description": "UX design and front-end developper, my approach embraces diversity while using the latest multimedia techniques for a unique result. I draw my inspiration from the latest trends while bringing my personal touch. I create websites from the brienfing to the publication."
         
     },
     "socialNetwork": [
@@ -24,15 +24,15 @@
     "menu": [
         {
             "url": "banner",
-            "label": "Présentation"
+            "label": "Home"
         },
         {
             "url": "work",
-            "label": "Réalisation"         
+            "label": "Works"         
         },
         {
             "url": "skills",
-            "label": "Compétences"
+            "label": "Skills"
         },
         {
             "url": "timeLine",
@@ -43,6 +43,7 @@
             "label": "Contact"
         }
     ],
+    "allCat": "All",
     "works": [
         {
             "id": "work_1",
@@ -51,9 +52,9 @@
             "tag": [
                 "Design UX",
                 "Branding",
-                "Développement Front-end HTML/CSS/JavaScript"
+                "Front-end Development HTML/CSS/JavaScript"
             ],
-            "description": "Création de l'identité visuelle (logo) et du site Web responsif pour une avocate à Salvador.",
+            "description": "Creation of branding and responsif website for a lawyer in Salvador.",
             "img": "apolinarioadv-2.jpg",
             "url": "https://apolinarioadv.com.br/",
             "images": [
@@ -70,9 +71,9 @@
             "tag": [
                 "React",
                 "Redux",
-                "Développement Front-end HTML/CSS/JavaScript"
+                "Front-end Development HTML/CSS/JavaScript"
             ],
-            "description": "Application Web responsif développer avec React et Redux pour une banque.",
+            "description": "Responsif Web Application bild with React and Redux for a bank agency",
             "img": "argent-bank-website.webp",
             "github": "https://github.com/sbeou/argent-bank-website",
             "url": "",
@@ -85,12 +86,12 @@
         {
             "id": "work_3",
             "title": "Banana King",
-            "category": "Photographie",
+            "category": "Photography",
             "tag": [
-                "Cadrage",
-                "Traitement photo"
+                "Framing",
+                "Image processing"
             ],
-            "description": "Réalisation de photographie pour un groupe Rock à l'abatoire de Marseille.",
+            "description": "Shooting for a Rock Band in Marseille",
             "img": "bananaking-1.jpg",
             "images": [
                 "bananaking-1.jpg",
@@ -102,12 +103,12 @@
         {
             "id": "work_4",
             "title": "Bazilia in Black",
-            "category": "Photographie",
+            "category": "Photography",
             "tag": [
-                "Cadrage",
-                "Traitement photo"
+                "Framing",
+                "Image processing"
             ],
-            "description": "Réalisation de photographie en noir et blanc dans la capital brésiliène.",
+            "description": "Black and white picture in brazilan capital.",
             "img": "brazilia.jpg",
             "images": [
                 "brazilia.jpg",
@@ -124,9 +125,9 @@
             "category": "Wordpress",
             "tag": [
                 "Design UX",
-                "Développement Front-end HTML/CSS/JavaScript"
+                "Front-end Development HTML/CSS/JavaScript"
             ],
-            "description": "Création du site Web responsif pour la Chambre de Commerca Argentie et l'État de Bahia à Salvador.",
+            "description": "Creation of responsif website for a Comercial Chamber of Argentina and Bahia State in Salvador",
             "img": "cecab.webp",
             "url": "https://camaraargentinabahia.com/",
             "images":[
@@ -141,9 +142,9 @@
             "category": "React",
             "tag": [
                 "React",
-                "Développement Front-end HTML/CSS/JavaScript"
+                "Front-end Development HTML/CSS/JavaScript"
             ],
-            "description": "Site Web responsif pour une agence de loca immobilière.",
+            "description": "Responsif website for a real estate location agency.",
             "img": "kasa.webp",
             "github": "https://github.com/sbeou/kasa",
             "url": "https://kasa.french.dev.br/",
@@ -159,9 +160,9 @@
             "category": "E-commerce",
             "tag": [
                 "Design UX",
-                "Développement Front-end HTML/CSS/JavaScript"
+                "Front-end Development HTML/CSS/JavaScript"
             ],
-            "description": "E-commerce responsif pour une institution filantropique à Salvador.",
+            "description": "Responsif e-commerce for a filantropic institution",
             "img": "lojafjs.webp",
             "github": "",
             "url": "https://loja.fjs.org.br/",
@@ -178,9 +179,9 @@
             "tag": [
                 "Design UX",
                 "Branding",
-                "Développement Front-end HTML/CSS/JavaScript"
+                "Front-end Development HTML/CSS/JavaScript"
             ],
-            "description": "Création de l'identité visuelle (logo) et du site Web responsif pour un cabinet d'architecte à Salvador.",
+            "description": "Creation of branding and website for an architect's office in Salvador.",
             "img": "taurieng-1.jpg",
             "github": "",
             "url": "https://taurieng.com.br/",
@@ -197,9 +198,9 @@
             "tag": [
                 "Design UX",
                 "Programation PHP/SQL",
-                "Développement Front-end HTML/CSS/JavaScript/JQuery"
+                "Front-end Development HTML/CSS/JavaScript"
             ],
-            "description": "Site responsif multilangue Wordpress développé avec Bootstrap, animation CSS pour une agence multimédia.",
+            "description": "Multilingual responsif website build with Bootstrap, css animation for a web agency.",
             "img": "webdesignalafrancaise.webp",
             "github": "https://github.com/sbeou/sg-one-page.git",
             "url": "https://webdesignalafrancaise.com.br/",
@@ -248,79 +249,79 @@
             "icon": "far fa-bezier-curve" 
         },
         {
-            "title": "Photographie",
+            "title": "Photography",
             "icon": "fas fa-camera-alt"
         }
     ],
     "timeLine": [
         {
-            "title": "Formation Intégrateur Web",
+            "title": "Front-end Developer Training",
             "location": "Open Class Room - France",
             "date": "2023",
-            "description": "Développement Front-End (HTML, CSS, JavaScript, React, Redux), Optimisation SEO, Gestion de projet Agil",
+            "description": "Front-end Development (HTML, CSS, JavaScript, React, Redux), SEO Optimization, Agile project management",
             "icon": "fad fa-user-graduate"
         },
         {
-            "title": "Programeur Visuel",
-            "location": "Fondation José Silveira - Salvador, Brésil",
+            "title": "Visual Programmer",
+            "location": "José Silveira Fundation - Salvador, Brazil",
             "date": "2018 - Maintenant",
-            "description": "Communication visuel, Branding, création et manutention de site web (design et intégration), Photographie événementiel",
+            "description": "Visual Communication, Branding, creation and maintenance of website (design and development), event photography",
             "icon": "fad fa-briefcase"
         },
         {
-            "title": "Bootcamp Online - Développeur Mobile Apps",
-            "location": "IGTI Brésil",
+            "title": "Bootcamp Online - Mobile Apps Developer",
+            "location": "IGTI Brazil",
             "date": "2021",
             "description": "Android with Java, React Native, Flutter, Dart",
             "icon": "fad fa-user-graduate"
         },
         {
-            "title": "Designer/Intégrateur Front End freelance",
-            "location": "Salvador, Brésil",
+            "title": "Designer/Front End Developer freelance",
+            "location": "Salvador, Brazil",
             "date": "2014 - 2018",
-            "description": "Communication visuel, Branding, création et manutention de site web (design et intégration), gestion d´hégerment web, gestion de client",
+            "description": "Visual communication, Branding, creation and maintenace de website (design et development), web server maintenance, client management",
             "icon": "fad fa-briefcase"
         },
         {
-            "title": "Designer/Intégrateur Front End",
-            "location": "Grupo A2 - Salvador, Brésil",
+            "title": "Designer/Front End Developer",
+            "location": "Grupo A2 - Salvador, Brazil",
             "date": "2013 - 2014",
-            "description": "Communication visuel, Branding, création de site web (design et intégration)",
+            "description": "Visual communication, Branding, creation and maintenace de website (design et development)",
             "icon": "fad fa-briefcase"
         },
         {
-            "title": "Designer/Intégrateur Front End",
+            "title": "Designer/Front End Developer",
             "location": "Digital Age - Paris, France",
             "date": "2008 - 2012",
-            "description": "Communication visuel, Branding, création de site web (design et intégration)",
+            "description": "Visual communication, Branding, creation and maintenace de website (design et development)",
             "icon": "fad fa-briefcase"
         },
         {
-            "title": "Formation Webmaster",
+            "title": "Webmaster Training",
             "location": "ESIC - Paris, France",
             "date": "2008",
-            "description": "Intégration de site web (HTML, CSS, JavaScript)",
+            "description": "Website development (HTML, CSS, JavaScript)",
             "icon": "fad fa-user-graduate"
         },
         {
-            "title": "Formation Infographiste Metteur en Page",
+            "title": "Grafic Designer Training",
             "location": "AFPA - Cannes, France",
             "date": "2007",
-            "description": "Création d'indentité visuel, PAO",
+            "description": "Branding and grafic design creation",
             "icon": "fad fa-user-graduate"
         },
         {
             "title": "Assistant",
             "location": "Photo Services - Marseille, France",
             "date": "2001 - 2006",
-            "description": "Tirage Photo, retouche numérique, gestion client",
+            "description": "Photo printing, image processing, customer management",
             "icon": "fad fa-briefcase"
         },
         {
-            "title": "Bac Pro Photo",
+            "title": "A Level Pro Photo",
             "location": "LEPR Blaise Pascal - Marseille, France",
             "date": "2000",
-            "description": "Photo en studio, reportage, laboratoire, retouche photo",
+            "description": "Photography in studio, news photography and photographic Laboratory",
             "icon": "fad fa-user-graduate"
         }
     ],

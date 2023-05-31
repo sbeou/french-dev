@@ -14,7 +14,7 @@ function Work() {
         dispatch(fetchDataLanguage());
     }, [dispatch]);
     
-    const { isError, works } = useSelector(languageSelector);
+    const { isError, works, menu, allCat } = useSelector(languageSelector);
     useEffect(() => {
         return () => {
         dispatch(clearState());
@@ -27,6 +27,9 @@ function Work() {
         }
     }, [isError, dispatch]);
     const [categoryFiltered, setCategoryFiltered] = useState();
+    const selectCat = (cat) => {
+        setCategoryFiltered(cat)   
+    }
     const filterWorks = (
         (!categoryFiltered ? works : works.filter(work => work.category === categoryFiltered)) || []
     )
@@ -58,14 +61,17 @@ function Work() {
     if(workId) {
         workModal = works.filter(work => work.id === workId)
     }
+    const titlePage = menu?.filter(menu => menu.url === 'work')
     return (
         <div className="container">
             <section id='work'>
-                <h2 className="title">Réalisation</h2>
+                {titlePage?.map((title) => (
+                    <h2 className="title" key={title.label}>{title.label}</h2>
+                ))}
                 <ul className="filterCat">
-                    <li onClick={() => setCategoryFiltered()}>Tous</li>
+                    <li className={!categoryFiltered ? 'active' : ''} onClick={() => setCategoryFiltered()}>{allCat}</li>
                     {filterCat.sort().map((cat, index) => (
-                    <li key={`cat-${index}`} onClick={() => setCategoryFiltered(cat)}>{cat}</li>  
+                    <li className={cat === categoryFiltered ? 'active' : ''} key={`cat-${index}`} onClick={() => selectCat(cat)}>{cat}</li>  
                     ))}
                 </ul>
                 <Masonry

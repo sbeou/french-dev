@@ -3,20 +3,13 @@ import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
 export const fetchDataLanguage = createAsyncThunk(
   'language/fetchDataLanguage',
   async (setLanguage, thunkAPI) => {
-    let languageJson
-    if(setLanguage === "french"){
-      languageJson = '/frenchData.json'
-    }
-    if(setLanguage === "portugues"){
-      languageJson = '/portuguesData.json'
-    }
-    if(setLanguage === "english"){
-      languageJson = '/englishData.json'
-    }
+    
     try {
-      const response = await fetch(languageJson);
+      if(!setLanguage) {
+        setLanguage = "english"
+      }
+      const response = await fetch(`/data/${setLanguage}Data.json`);
       const data = await response.json();
-
       if (response.status === 200) {
         return data ;
       } else {
@@ -60,6 +53,7 @@ export const languageSlice = createSlice({
       state.skills = payload.skills;
       state.timeLine = payload.timeLine;
       state.contact = payload.contact;
+      state.allCat = payload.allCat;
     },
     [fetchDataLanguage.rejected]: (state) => {
       console.log('fetchDataLanguage');

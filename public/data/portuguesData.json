@@ -28,7 +28,7 @@
         },
         {
             "url": "work",
-            "label": "Realisação"         
+            "label": "Realizações"         
         },
         {
             "url": "skills",
@@ -43,6 +43,7 @@
             "label": "Contato"
         }
     ],
+    "allCat": "Todas",
     "works": [
         {
             "id": "work_1",
@@ -254,7 +255,7 @@
             "title": "Formação Desenvolvedor Front-end",
             "location": "Open Class Room - França",
             "date": "2023",
-            "description": "Desenvolvimento Front-End (HTML, CSS, JavaScript, React, Redux), Otimização SEO, Gestão de projeto Agil",
+            "description": "Desenvolvimento Front-End (HTML, CSS, JavaScript, React, Redux), Otimização SEO, Gestão de projeto Agile",
             "icon": "fad fa-user-graduate"
         },
         {

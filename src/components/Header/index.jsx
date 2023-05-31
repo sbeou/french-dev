@@ -11,11 +11,14 @@ function Header() {
         setCollapse()
     }
     const [visible, setVisible] = useState('close')
-    const [language, setLanguage] = useState('french')
+    const [language, setLanguage] = useState('english')
     const setCollapse = () => {
         setVisible(visible === 'close' ? 'open' : 'close')
     }
     const dispatch = useDispatch();
+    useEffect(() => {
+        dispatch(fetchDataLanguage(language));
+    }, [dispatch, language]);
     useEffect(() => {
         const langugeBrowser = detectBrowserLanguage()
         if(langugeBrowser === 'pt-BR' || langugeBrowser === 'pt') {
@@ -24,29 +27,25 @@ function Header() {
         if(langugeBrowser === 'fr' || langugeBrowser === 'fr-fr' || langugeBrowser === 'fr-be' || langugeBrowser === 'fr-ca' || langugeBrowser === 'fr-lu' || langugeBrowser === 'fr-mc' || langugeBrowser === 'fr-ch') {
             setLanguage('french')
         }
-    }, [setLanguage])
-
-    useEffect(() => {
-        dispatch(fetchDataLanguage(language));
-    }, [dispatch, language]);
-    
+    }, [setLanguage])    
     const { isError,socialNetwork, menu } = useSelector(languageSelector);
     useEffect(() => {
-        return () => {
-        dispatch(clearState());
+            return () => {
+            dispatch(clearState());
         };
     }, [dispatch]);
     
     useEffect(() => {
         if (isError) {
-        dispatch(clearState());
+            dispatch(clearState());
         }
     }, [isError, dispatch]);
     return (
         <div className="header">
             <nav>
                 <ul className="translation">
-                    <li className="active"><i className="fad fa-language"></i> {language}</li>
+                    <li className="active"><i className="fal fa-language"></i> {language}</li>
+                    <li onClick={() => setLanguage('english')}>English</li>
                     <li onClick={() => setLanguage('french')}>French</li>
                     <li onClick={() => setLanguage('portugues')}>Portugues</li>
                 </ul>

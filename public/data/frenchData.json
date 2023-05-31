@@ -1,0 +1,334 @@
+{
+    "banner": {
+        
+            "title":"Sébastien Guilet",
+            "job": "Développeur Front-end",
+            "tag": "{design} {intégration} {développement}",
+            "description": "UX design et développeur front-end, j’ai su me diversifier pour aller toujours plus loin dans la réalisation de projets web. Je puise mon inspiration dans les dernières tendances tout en y apportant ma touche personnelle. Je conçois et réalise des sites web du cahier des charges à la mise en ligne."
+        
+    },
+    "socialNetwork": [
+        {
+            "url": "https://github.com/sbeou",
+            "icon": "fab fa-github"
+        },
+        {
+            "url": "https://www.instagram.com/webdesignalafrancaise/",
+            "icon": "fab fa-instagram"
+        },
+        {
+            "url": "https://www.linkedin.com/in/sebastienguilet/",
+            "icon": "fab fa-linkedin"
+        }
+    ],
+    "menu": [
+        {
+            "url": "banner",
+            "label": "Présentation"
+        },
+        {
+            "url": "work",
+            "label": "Réalisations"         
+        },
+        {
+            "url": "skills",
+            "label": "Compétences"
+        },
+        {
+            "url": "timeLine",
+            "label": "Time Line"
+        },
+        {
+            "url": "contact",
+            "label": "Contact"
+        }
+    ],
+    "allCat": "Toutes",
+    "works": [
+        {
+            "id": "work_1",
+            "title": "Mônica Aplonário",
+            "category": "Design",
+            "tag": [
+                "Design UX",
+                "Branding",
+                "Développement Front-end HTML/CSS/JavaScript"
+            ],
+            "description": "Création de l'identité visuelle (logo) et du site Web responsif pour une avocate à Salvador.",
+            "img": "apolinarioadv-2.jpg",
+            "url": "https://apolinarioadv.com.br/",
+            "images": [
+                "apolinarioadv-1.jpg",
+                "apolinarioadv-2.jpg",
+                "apolinarioadv-3.jpg"
+                
+            ]
+        },
+        {
+            "id": "work_2",
+            "title": "Argent Bank",
+            "category": "React",
+            "tag": [
+                "React",
+                "Redux",
+                "Développement Front-end HTML/CSS/JavaScript"
+            ],
+            "description": "Application Web responsif développer avec React et Redux pour une banque.",
+            "img": "argent-bank-website.webp",
+            "github": "https://github.com/sbeou/argent-bank-website",
+            "url": "",
+            "images": [
+                "argentbank-1.jpg",
+                "argentbank-2.jpg",
+                "argentbank-3.jpg"
+            ]
+        },
+        {
+            "id": "work_3",
+            "title": "Banana King",
+            "category": "Photographie",
+            "tag": [
+                "Cadrage",
+                "Traitement photo"
+            ],
+            "description": "Réalisation de photographie pour un groupe Rock à l'abatoire de Marseille.",
+            "img": "bananaking-1.jpg",
+            "images": [
+                "bananaking-1.jpg",
+                "bananaking-2.jpg",
+                "bananaking-3.jpg",
+                "bananaking-4.jpg"
+            ]
+        },
+        {
+            "id": "work_4",
+            "title": "Bazilia in Black",
+            "category": "Photographie",
+            "tag": [
+                "Cadrage",
+                "Traitement photo"
+            ],
+            "description": "Réalisation de photographie en noir et blanc dans la capital brésiliènne.",
+            "img": "brazilia.jpg",
+            "images": [
+                "brazilia.jpg",
+                "brazilia-2.jpg",
+                "brazilia-3.jpg",
+                "brazilia-4.jpg",
+                "brazilia-5.jpg",
+                "brazilia-6.jpg"
+            ]
+        },
+        {
+            "id": "work_5",
+            "title": "Camara Comercial Argentina Bahia",
+            "category": "Wordpress",
+            "tag": [
+                "Design UX",
+                "Développement Front-end HTML/CSS/JavaScript"
+            ],
+            "description": "Création du site Web responsif pour la Chambre de Commerca Argentie et l'État de Bahia à Salvador.",
+            "img": "cecab.webp",
+            "url": "https://camaraargentinabahia.com/",
+            "images":[
+                "cecab-1.jpg",
+                "cecab-2.jpg",
+                "cecab-3.jpg"
+            ]
+        },
+        {
+            "id": "work_6",
+            "title": "Kasa",
+            "category": "React",
+            "tag": [
+                "React",
+                "Développement Front-end HTML/CSS/JavaScript"
+            ],
+            "description": "Site Web responsif pour une agence de location immobilière.",
+            "img": "kasa.webp",
+            "github": "https://github.com/sbeou/kasa",
+            "url": "https://kasa.french.dev.br/",
+            "images":[
+                "kasa-1.jpg",
+                "kasa-2.jpg",
+                "kasa-3.jpg"
+            ]
+        },
+        {
+            "id": "work_7",
+            "title": "Loja Fundação José Silveira",
+            "category": "E-commerce",
+            "tag": [
+                "Design UX",
+                "Développement Front-end HTML/CSS/JavaScript"
+            ],
+            "description": "E-commerce responsif pour une institution filantropique à Salvador.",
+            "img": "lojafjs.webp",
+            "github": "",
+            "url": "https://loja.fjs.org.br/",
+            "images": [
+                "lojafjs-1.jpg",
+                "lojafjs-2.jpg",
+                "lojafjs-3.jpg"
+            ]
+        },
+        {
+            "id": "work_8",
+            "title": "Tauri Engneria",
+            "category": "Design",
+            "tag": [
+                "Design UX",
+                "Branding",
+                "Développement Front-end HTML/CSS/JavaScript"
+            ],
+            "description": "Création de l'identité visuelle (logo) et du site Web responsif pour un cabinet d'architecte à Salvador.",
+            "img": "taurieng-1.jpg",
+            "github": "",
+            "url": "https://taurieng.com.br/",
+            "images": [
+                "taurieng-2.jpg",
+                "taurieng-4.jpg",
+                "taurieng-3.jpg"
+            ]
+        },
+        {
+            "id": "work_9",
+            "title": "webdesign à la française",
+            "category": "Wordpress",
+            "tag": [
+                "Design UX",
+                "Programation PHP/SQL",
+                "Développement Front-end HTML/CSS/JavaScript/JQuery"
+            ],
+            "description": "Site responsif multilangue Wordpress développé avec Bootstrap, animation CSS pour une agence multimédia.",
+            "img": "webdesignalafrancaise.webp",
+            "github": "https://github.com/sbeou/sg-one-page.git",
+            "url": "https://webdesignalafrancaise.com.br/",
+            "images":[
+                "walf-1.jpg",
+                "walf-2.jpg",
+                "walf-3.jpg"
+            ]
+        }
+    ],
+    "skills": [
+        {
+            "title": "HTML",
+            "icon": "fab fa-html5"
+        },
+        {
+            "title": "CSS",
+            "icon": "fab fa-css3-alt" 
+        },
+        {
+            "title": "JavaScript",
+            "icon": "fab fa-js" 
+        },
+        {
+            "title": "Sass",
+            "icon": "fab fa-sass" 
+        },
+        {
+            "title": "Bootstrap",
+            "icon": "fab fa-bootstrap" 
+        },
+        {
+            "title": "React",
+            "icon": "fab fa-react" 
+        },
+        {
+            "title": "WordPress",
+            "icon": "fab fa-wordpress" 
+        },
+        {
+            "title": "Design UX",
+            "icon": "far fa-object-group" 
+        },
+        {
+            "title": "Branding",
+            "icon": "far fa-bezier-curve" 
+        },
+        {
+            "title": "Photographie",
+            "icon": "fas fa-camera-alt"
+        }
+    ],
+    "timeLine": [
+        {
+            "title": "Formation Intégrateur Web",
+            "location": "Open Class Room - France",
+            "date": "2023",
+            "description": "Développement Front-End (HTML, CSS, JavaScript, React, Redux), Optimisation SEO, Gestion de projet Agile",
+            "icon": "fad fa-user-graduate"
+        },
+        {
+            "title": "Programeur Visuel",
+            "location": "Fondation José Silveira - Salvador, Brésil",
+            "date": "2018 - Maintenant",
+            "description": "Communication visuel, Branding, création et manutention de site web (design et intégration), Photographie événementiel",
+            "icon": "fad fa-briefcase"
+        },
+        {
+            "title": "Bootcamp Online - Développeur Mobile Apps",
+            "location": "IGTI Brésil",
+            "date": "2021",
+            "description": "Android with Java, React Native, Flutter, Dart",
+            "icon": "fad fa-user-graduate"
+        },
+        {
+            "title": "Designer/Intégrateur Front End freelance",
+            "location": "Salvador, Brésil",
+            "date": "2014 - 2018",
+            "description": "Communication visuel, Branding, création et manutention de site web (design et intégration), gestion d´hégerment web, gestion de client",
+            "icon": "fad fa-briefcase"
+        },
+        {
+            "title": "Designer/Intégrateur Front End",
+            "location": "Grupo A2 - Salvador, Brésil",
+            "date": "2013 - 2014",
+            "description": "Communication visuel, Branding, création de site web (design et intégration)",
+            "icon": "fad fa-briefcase"
+        },
+        {
+            "title": "Designer/Intégrateur Front End",
+            "location": "Digital Age - Paris, France",
+            "date": "2008 - 2012",
+            "description": "Communication visuel, Branding, création de site web (design et intégration)",
+            "icon": "fad fa-briefcase"
+        },
+        {
+            "title": "Formation Webmaster",
+            "location": "ESIC - Paris, France",
+            "date": "2008",
+            "description": "Intégration de site web (HTML, CSS, JavaScript)",
+            "icon": "fad fa-user-graduate"
+        },
+        {
+            "title": "Formation Infographiste Metteur en Page",
+            "location": "AFPA - Cannes, France",
+            "date": "2007",
+            "description": "Création d'indentité visuel, PAO",
+            "icon": "fad fa-user-graduate"
+        },
+        {
+            "title": "Assistant",
+            "location": "Photo Services - Marseille, France",
+            "date": "2001 - 2006",
+            "description": "Tirage Photo, retouche numérique, gestion client",
+            "icon": "fad fa-briefcase"
+        },
+        {
+            "title": "Bac Pro Photo",
+            "location": "LEPR Blaise Pascal - Marseille, France",
+            "date": "2000",
+            "description": "Photo en studio, reportage, laboratoire, retouche photo",
+            "icon": "fad fa-user-graduate"
+        }
+    ],
+    "contact": {
+        "email": "sbeou13@gmail.com",
+        "phone": "+55 (71) 98511-9978",
+        "whatsapp": "https://api.whatsapp.com/send?phone=5571985119978&text="
+        
+    }
+}

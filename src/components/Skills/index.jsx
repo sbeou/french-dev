@@ -9,7 +9,7 @@ function Skills() {
         dispatch(fetchDataLanguage());
     }, [dispatch]);
     
-    const { isError, skills } = useSelector(languageSelector);
+    const { isError, skills, menu } = useSelector(languageSelector);
     useEffect(() => {
         return () => {
         dispatch(clearState());
@@ -21,10 +21,13 @@ function Skills() {
         dispatch(clearState());
         }
     }, [isError, dispatch]);
+    const titlePage = menu?.filter(menu => menu.url === 'skills')
     return (
         <section id='skills'>
             <div className="container">
-                <h2 className="title">Compétences</h2>
+                {titlePage?.map((title) => (
+                    <h2 className="title" key={title.label}>{title.label}</h2>
+                ))}
                 <div className='skills'>
                     {skills?.map((skill) => (
                         <div className='item' key={skill.title}>

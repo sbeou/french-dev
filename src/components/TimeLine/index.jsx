@@ -10,7 +10,7 @@ function TimeLine() {
         dispatch(fetchDataLanguage());
     }, [dispatch]);
     
-    const { isError, timeLine } = useSelector(languageSelector);
+    const { isError, timeLine, menu } = useSelector(languageSelector);
     useEffect(() => {
         return () => {
         dispatch(clearState());
@@ -22,10 +22,13 @@ function TimeLine() {
         dispatch(clearState());
         }
     }, [isError, dispatch]);
+    const titlePage = menu?.filter(menu => menu.url === 'timeLine')
     return (
         <section id="timeLine">
             <div className="container">
-                <h2 className="title">Time Line</h2>
+                {titlePage?.map((title) => (
+                    <h2 className="title" key={title.label}>{title.label}</h2>
+                ))}
                 <VerticalTimeline lineColor={ '#1cbbb4' }>
                     {timeLine?.map((item, index) => (
                         <VerticalTimelineElement

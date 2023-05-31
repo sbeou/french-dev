@@ -7,12 +7,14 @@
     li {
         cursor: pointer;
         color:white;
-        background-color: rgba($color: $primary, $alpha: 0.7);
+        background-color: $primary;
         padding: 5px 10px;
         font-size: 1.2em;
         transition: all .5s ease-in-out;
-        &:hover, .active {
-         background-color: rgba($color: $primary, $alpha: 1);
+        border:solid 1px $primary;
+        &:hover, &.active {
+         background-color: white;
+         color:$primary;
         }
     }
 }
