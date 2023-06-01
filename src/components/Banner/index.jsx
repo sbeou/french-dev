@@ -10,11 +10,12 @@ import { fetchDataLanguage, languageSelector, clearState } from "../../features/
 
 function Banner() {
     const dispatch = useDispatch();
+    const { isError, banner } = useSelector(languageSelector);
+    
     useEffect(() => {
         dispatch(fetchDataLanguage());
     }, [dispatch]);
     
-    const { isError,banner } = useSelector(languageSelector);
     useEffect(() => {
         return () => {
         dispatch(clearState());

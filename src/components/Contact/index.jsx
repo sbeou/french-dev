@@ -6,11 +6,12 @@ import { Link } from 'react-router-dom';
 
 function Contact() {
     const dispatch = useDispatch();
+    const { isError,contact, socialNetwork } = useSelector(languageSelector);
     useEffect(() => {
         dispatch(fetchDataLanguage());
     }, [dispatch]);
     
-    const { isError,contact, socialNetwork } = useSelector(languageSelector);
+    
     useEffect(() => {
         return () => {
         dispatch(clearState());

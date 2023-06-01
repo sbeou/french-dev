@@ -6,19 +6,7 @@ import { fetchDataLanguage, languageSelector, clearState } from "../../features/
 import detectBrowserLanguage from 'detect-browser-language'
 
 function Header() {
-    const handleClick = (ref) => {
-        document.getElementById(ref).scrollIntoView()
-        setCollapse()
-    }
-    const [visible, setVisible] = useState('close')
     const [language, setLanguage] = useState('english')
-    const setCollapse = () => {
-        setVisible(visible === 'close' ? 'open' : 'close')
-    }
-    const dispatch = useDispatch();
-    useEffect(() => {
-        dispatch(fetchDataLanguage(language));
-    }, [dispatch, language]);
     useEffect(() => {
         const langugeBrowser = detectBrowserLanguage()
         if(langugeBrowser === 'pt-BR' || langugeBrowser === 'pt') {
@@ -27,8 +15,21 @@ function Header() {
         if(langugeBrowser === 'fr' || langugeBrowser === 'fr-fr' || langugeBrowser === 'fr-be' || langugeBrowser === 'fr-ca' || langugeBrowser === 'fr-lu' || langugeBrowser === 'fr-mc' || langugeBrowser === 'fr-ch') {
             setLanguage('french')
         }
-    }, [setLanguage])    
-    const { isError,socialNetwork, menu } = useSelector(languageSelector);
+    }, [setLanguage]) 
+    const handleClick = (ref) => {
+        document.getElementById(ref).scrollIntoView()
+        setCollapse()
+    }
+    const [visible, setVisible] = useState('close')
+    const setCollapse = () => {
+        setVisible(visible === 'close' ? 'open' : 'close')
+    }
+    const dispatch = useDispatch();
+    const { isError, socialNetwork, menu } = useSelector(languageSelector);
+    useEffect(() => {
+        dispatch(fetchDataLanguage(language));
+    }, [dispatch, language]);
+     
     useEffect(() => {
             return () => {
             dispatch(clearState());

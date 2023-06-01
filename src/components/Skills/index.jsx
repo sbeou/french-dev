@@ -5,11 +5,10 @@ import { useEffect } from 'react';
 
 function Skills() {
     const dispatch = useDispatch();
+    const { isError, skills, menu } = useSelector(languageSelector);
     useEffect(() => {
         dispatch(fetchDataLanguage());
     }, [dispatch]);
-    
-    const { isError, skills, menu } = useSelector(languageSelector);
     useEffect(() => {
         return () => {
         dispatch(clearState());

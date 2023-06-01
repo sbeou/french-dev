@@ -6,11 +6,12 @@ import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timel
 import 'react-vertical-timeline-component/style.min.css';
 function TimeLine() {
     const dispatch = useDispatch();
+    const { isError, timeLine, menu } = useSelector(languageSelector);
+    
     useEffect(() => {
         dispatch(fetchDataLanguage());
     }, [dispatch]);
-    
-    const { isError, timeLine, menu } = useSelector(languageSelector);
+
     useEffect(() => {
         return () => {
         dispatch(clearState());
