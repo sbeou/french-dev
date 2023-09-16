@@ -46,6 +46,26 @@
     "allCat": "All",
     "works": [
         {
+            "id": "work_10",
+            "title": "Weather App",
+            "category": "React",
+            "tag": [
+                "React",
+                "Redux",
+                "API",
+                "Front-end Development HTML/CSS/JavaScript"
+            ],
+            "description": "Creation of responsif web application build with React and Redux to know the city's weather",
+            "img": "weather-app-1.jpg",
+            "github": "https://github.com/sbeou/weather-app.git",
+            "url": "https://weather-app.french.dev.br/",
+            "images": [
+                "weather-app-1.jpg",
+                "weather-app-2.jpg"
+                
+            ]
+        },
+        {
             "id": "work_1",
             "title": "Mônica Aplonário",
             "category": "Design",
@@ -256,7 +276,7 @@
     "timeLine": [
         {
             "title": "Front-end Developer Training",
-            "location": "Open Class Room - France",
+            "location": "OpenClassrooms- France",
             "date": "2023",
             "description": "Front-end Development (HTML, CSS, JavaScript, React, Redux), SEO Optimization, Agile project management",
             "icon": "fad fa-user-graduate"
@@ -264,8 +284,8 @@
         {
             "title": "Visual Programmer",
             "location": "José Silveira Fundation - Salvador, Brazil",
-            "date": "2018 - Maintenant",
-            "description": "Visual Communication, Branding, creation and maintenance of website (design and development), event photography",
+            "date": "2018 - Present",
+            "description": "Visual Communication, branding, creation and website maintenance (design and development), event photography",
             "icon": "fad fa-briefcase"
         },
         {
@@ -279,21 +299,21 @@
             "title": "Designer/Front End Developer freelance",
             "location": "Salvador, Brazil",
             "date": "2014 - 2018",
-            "description": "Visual communication, Branding, creation and maintenace de website (design et development), web server maintenance, client management",
+            "description": "Visual communication, branding, creation and website maintenance (design and development), web server maintenance, client management",
             "icon": "fad fa-briefcase"
         },
         {
             "title": "Designer/Front End Developer",
             "location": "Grupo A2 - Salvador, Brazil",
             "date": "2013 - 2014",
-            "description": "Visual communication, Branding, creation and maintenace de website (design et development)",
+            "description": "Visual communication, branding, creation and website maintenance (design and development)",
             "icon": "fad fa-briefcase"
         },
         {
             "title": "Designer/Front End Developer",
             "location": "Digital Age - Paris, France",
             "date": "2008 - 2012",
-            "description": "Visual communication, Branding, creation and maintenace de website (design et development)",
+            "description": "Visual communication, branding, creation and website maintenance (design and development)",
             "icon": "fad fa-briefcase"
         },
         {
@@ -304,10 +324,10 @@
             "icon": "fad fa-user-graduate"
         },
         {
-            "title": "Grafic Designer Training",
+            "title": "Graphic Designer Training",
             "location": "AFPA - Cannes, France",
             "date": "2007",
-            "description": "Branding and grafic design creation",
+            "description": "Branding and graphic design creation",
             "icon": "fad fa-user-graduate"
         },
         {
@@ -326,7 +346,7 @@
         }
     ],
     "contact": {
-        "email": "sbeou13@gmail.com",
+        "email": "sgm.guilet@gmail.com",
         "phone": "+55 (71) 98511-9978",
         "whatsapp": "https://api.whatsapp.com/send?phone=5571985119978&text="
         

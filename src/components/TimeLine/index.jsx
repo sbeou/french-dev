@@ -1,28 +1,10 @@
-import { useDispatch, useSelector } from 'react-redux'
-import { fetchDataLanguage, languageSelector, clearState } from "../../features/LanguageSlices";
+import { useSelector } from 'react-redux'
+import { languageSelector } from "../../features/LanguageSlices";
 import './style.scss'
-import { useEffect } from 'react';
 import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
 function TimeLine() {
-    const dispatch = useDispatch();
-    const { isError, timeLine, menu } = useSelector(languageSelector);
-    
-    useEffect(() => {
-        dispatch(fetchDataLanguage());
-    }, [dispatch]);
-
-    useEffect(() => {
-        return () => {
-        dispatch(clearState());
-        };
-    }, [dispatch]);
-    
-    useEffect(() => {
-        if (isError) {
-        dispatch(clearState());
-        }
-    }, [isError, dispatch]);
+    const { timeLine, menu } = useSelector(languageSelector);
     const titlePage = menu?.filter(menu => menu.url === 'timeLine')
     return (
         <section id="timeLine">

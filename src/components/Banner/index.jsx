@@ -4,29 +4,11 @@ import CSS from '../../assets/css.webp'
 import JAVASCRIPT from '../../assets/javascipt.webp'
 import REACT from '../../assets/react.webp'
 import './style.scss'
-import { useEffect } from "react"
-import { useDispatch, useSelector } from 'react-redux'
-import { fetchDataLanguage, languageSelector, clearState } from "../../features/LanguageSlices";
+import { useSelector } from 'react-redux'
+import { languageSelector } from "../../features/LanguageSlices";
 
 function Banner() {
-    const dispatch = useDispatch();
-    const { isError, banner } = useSelector(languageSelector);
-    
-    useEffect(() => {
-        dispatch(fetchDataLanguage());
-    }, [dispatch]);
-    
-    useEffect(() => {
-        return () => {
-        dispatch(clearState());
-        };
-    }, [dispatch]);
-    
-    useEffect(() => {
-        if (isError) {
-        dispatch(clearState());
-        }
-    }, [isError, dispatch]);
+    const { banner } = useSelector(languageSelector);
     return (
         <div className="banner" id="banner">
             <div className="container">

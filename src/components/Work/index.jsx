@@ -1,31 +1,15 @@
 import Modal from 'react-modal';
-import { useDispatch, useSelector } from 'react-redux'
-import { fetchDataLanguage, languageSelector, clearState } from "../../features/LanguageSlices";
+import { useSelector } from 'react-redux'
+import { languageSelector } from "../../features/LanguageSlices";
 import Masonry from 'react-masonry-css'
-import { useEffect, useState, useCallback } from 'react';
+import { useState, useCallback } from 'react';
 import { Link } from 'react-router-dom';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from 'react-responsive-carousel';
 import './style.scss'
 
 function Work() {
-    const dispatch = useDispatch();
-    useEffect(() => {
-        dispatch(fetchDataLanguage());
-    }, [dispatch]);
-    
-    const { isError, works, menu, allCat } = useSelector(languageSelector);
-    useEffect(() => {
-        return () => {
-        dispatch(clearState());
-        };
-    }, [dispatch]);
-    
-    useEffect(() => {
-        if (isError) {
-        dispatch(clearState());
-        }
-    }, [isError, dispatch]);
+    const { works, menu, allCat } = useSelector(languageSelector);
     const [categoryFiltered, setCategoryFiltered] = useState();
     const selectCat = (cat) => {
         setCategoryFiltered(cat)   
@@ -124,12 +108,12 @@ function Work() {
                             <div className='btn'>
                                 {workModal.github && (
                                     <Link to={workModal.github} target="_blank">
-                                        <i className="fab fa-github"></i> Voir le code
+                                        <i className="fab fa-github"></i> Github
                                     </Link>
                                 )}
                                 {workModal.url && (
                                     <Link to={workModal.url} target="_blank">
-                                        <i className="fad fa-external-link"></i> Visiter le site
+                                        <i className="fad fa-external-link"></i> Demo
                                     </Link>
                                 )}
                             </div>

@@ -46,6 +46,26 @@
     "allCat": "Todas",
     "works": [
         {
+            "id": "work_10",
+            "title": "Weather App",
+            "category": "React",
+            "tag": [
+                "React",
+                "Redux",
+                "API",
+                "Desenvolvimento Front-end HTML/CSS/JavaScript"
+            ],
+            "description": "Criação de um aplicativo web responsivo desenvolvido com React e Redux para saber a previsão meteoróligica de uma cidade",
+            "img": "weather-app-1.jpg",
+            "github": "https://github.com/sbeou/weather-app.git",
+            "url": "https://weather-app.french.dev.br/",
+            "images": [
+                "weather-app-1.jpg",
+                "weather-app-2.jpg"
+                
+            ]
+        },
+        {
             "id": "work_1",
             "title": "Mônica Aplonário",
             "category": "Design",
@@ -54,7 +74,7 @@
                 "Branding",
                 "Desenvolvimento Front-end HTML/CSS/JavaScript"
             ],
-            "description": " Criação da identidage visual (marca) e site web responsivo para uma advogada em Salvador.",
+            "description": "Criação da identidage visual (marca) e site web responsivo para uma advogada em Salvador.",
             "img": "apolinarioadv-2.jpg",
             "url": "https://apolinarioadv.com.br/",
             "images": [
@@ -197,7 +217,7 @@
                 "Programação PHP/SQL",
                 "Desenvolvimento Front-end HTML/CSS/JavaScript"
             ],
-            "description": "Site responsivo multi-língua Wordpress desenvolvido com Bootstrap, animação CSS para uma angiência digital.",
+            "description": "Site responsivo multi-língua Wordpress desenvolvido com Bootstrap, animação CSS para uma angência digital.",
             "img": "webdesignalafrancaise.webp",
             "github": "https://github.com/sbeou/sg-one-page.git",
             "url": "https://webdesignalafrancaise.com.br/",
@@ -253,7 +273,7 @@
     "timeLine": [
         {
             "title": "Formação Desenvolvedor Front-end",
-            "location": "Open Class Room - França",
+            "location": "OpenClassrooms - França",
             "date": "2023",
             "description": "Desenvolvimento Front-End (HTML, CSS, JavaScript, React, Redux), Otimização SEO, Gestão de projeto Agile",
             "icon": "fad fa-user-graduate"
@@ -262,7 +282,7 @@
             "title": "Programador Visual",
             "location": "Fondação José Silveira - Salvador, Brasil",
             "date": "2018 - Atual",
-            "description": "Comunicação visual, Branding, criação e manutenção de site web (design et desenvolvimento), Fotografia de evento",
+            "description": "Comunicação visual, branding, criação e manutenção de site web (design e desenvolvimento), Fotografia de evento",
             "icon": "fad fa-briefcase"
         },
         {
@@ -276,21 +296,21 @@
             "title": "Designer/Desenvoldedor Front End freelance",
             "location": "Salvador, Brasil",
             "date": "2014 - 2018",
-            "description": "Comunicação visual, Branding, criação e manutenção de site web (design et desenvolvimento), gestão de hospedagem de site web, gestão de cliente",
+            "description": "Comunicação visual, branding, criação e manutenção de site web (design e desenvolvimento), gestão de hospedagem de site web, gestão de cliente",
             "icon": "fad fa-briefcase"
         },
         {
             "title": "Designer/Desenvolvedor Front End",
             "location": "Grupo A2 - Salvador, Brasil",
             "date": "2013 - 2014",
-            "description": "Comunicação visual, Branding, criação de site web (design et desenvolvimento)",
+            "description": "Comunicação visual, branding, criação de site web (design e desenvolvimento)",
             "icon": "fad fa-briefcase"
         },
         {
             "title": "Designer/Desenvolvedor Front End",
             "location": "Digital Age - Paris, França",
             "date": "2008 - 2012",
-            "description": "Comunicação visual, Branding, criação de site web (design et desenvolvimento)",
+            "description": "Comunicação visual, branding, criação de site web (design e desenvolvimento)",
             "icon": "fad fa-briefcase"
         },
         {
@@ -304,18 +324,18 @@
             "title": "Formação Designer Gráfico",
             "location": "AFPA - Cannes, França",
             "date": "2007",
-            "description": "Criação de identidade visual(marca, folder, panfleto, cartaz, revista...)",
+            "description": "Criação de identidade visual(marca, folder, panfleto, cartaz, revista)",
             "icon": "fad fa-user-graduate"
         },
         {
             "title": "Assistante",
             "location": "Photo Services - Marselha, França",
             "date": "2001 - 2006",
-            "description": "Revelar foto, tramaneto de imagem, gestão de cliente",
+            "description": "Revelar foto, tratamento de imagem, gestão de cliente",
             "icon": "fad fa-briefcase"
         },
         {
-            "title": "Formação Profecionalizante em Photo",
+            "title": "Formação Profissionalizante em Fotografia",
             "location": "LEPR Blaise Pascal - Marselha, França",
             "date": "2000",
             "description": "Foto em estudio, reportagem, laboratório e tratamento de imagem",
@@ -323,7 +343,7 @@
         }
     ],
     "contact": {
-        "email": "sbeou13@gmail.com",
+        "email": "sgm.guilet@gmail.com",
         "phone": "+55 (71) 98511-9978",
         "whatsapp": "https://api.whatsapp.com/send?phone=5571985119978&text="
         
