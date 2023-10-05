@@ -26,6 +26,13 @@
         &:hover {
             background-color: $primary;
             color:white;
+            .cib-next-js {
+                color: white;
+                filter: invert(1);
+            }
+        }
+        .cib-next-js {
+            content: url('../../assets/next-js.svg');
         }
     }
 }

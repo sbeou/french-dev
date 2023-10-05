@@ -46,6 +46,27 @@
     "allCat": "All",
     "works": [
         {
+            "id": "work_11",
+            "title": "Carrousel Spiderverse App",
+            "category": "Next.js",
+            "tag": [
+                "React",
+                "NEXT",
+                "Framer-motion",
+                "API",
+                "Front-end Development HTML/CSS/JavaScript"
+            ],
+            "description": "Creation of responsif web application build with React.js and Framer-motion to do a carrousel with  differents Siperdman Univers",
+            "img": "spiderverse-1.jpg",
+            "github": "https://github.com/sbeou/spider-verse.git",
+            "url": "https://spiderverse-gray.vercel.app/",
+            "images": [
+                "spiderverse-1.jpg",
+                "spiderverse-2.jpg",
+                "spiderverse-3.jpg" 
+            ]
+        },
+        {
             "id": "work_10",
             "title": "Weather App",
             "category": "React",
@@ -257,6 +278,10 @@
             "icon": "fab fa-react" 
         },
         {
+            "title": "Next.js",
+            "icon": "cib-next-js"
+        },
+        {
             "title": "WordPress",
             "icon": "fab fa-wordpress" 
         },
@@ -267,10 +292,6 @@
         {
             "title": "Branding",
             "icon": "far fa-bezier-curve" 
-        },
-        {
-            "title": "Photography",
-            "icon": "fas fa-camera-alt"
         }
     ],
     "timeLine": [
