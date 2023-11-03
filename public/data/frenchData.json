@@ -46,6 +46,27 @@
     "allCat": "Toutes",
     "works": [
         {
+            "id": "work_10",
+            "title": "Weather App",
+            "category": "Next.js",
+            "tag": [
+                "React",
+                "Next",
+                "Framer-motion",
+                "API",
+                "Développement Front-end HTML/CSS/JavaScript"
+            ],
+            "description": "Création d'ume aplication responsif web développer avec React, Next.js et Framer-motion pour connaître la prévision météo d'une ville",
+            "img": "weather-app-1.jpg",
+            "github": "https://github.com/sbeou/weather-app.git",
+            "url": "https://weather-app-br.vercel.app/",
+            "images": [
+                "weather-app-1.jpg",
+                "weather-app-2.jpg"
+                
+            ]
+        },
+        {
             "id": "work_11",
             "title": "Carrousel Spiderverse App",
             "category": "Next.js",
@@ -64,26 +85,6 @@
                 "spiderverse-1.jpg",
                 "spiderverse-2.jpg",
                 "spiderverse-3.jpg" 
-            ]
-        },
-        {
-            "id": "work_10",
-            "title": "Weather App",
-            "category": "React",
-            "tag": [
-                "React",
-                "Redux",
-                "API",
-                "Développement Front-end HTML/CSS/JavaScript"
-            ],
-            "description": "Création d'ume aplication responsif web développer avec React et Redux pour connaître la prévision météo d'une ville",
-            "img": "weather-app-1.jpg",
-            "github": "https://github.com/sbeou/weather-app.git",
-            "url": "https://weather-app.french.dev.br/",
-            "images": [
-                "weather-app-1.jpg",
-                "weather-app-2.jpg"
-                
             ]
         },
         {

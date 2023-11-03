@@ -46,17 +46,38 @@
     "allCat": "Todas",
     "works": [
         {
+            "id": "work_10",
+            "title": "Weather App",
+            "category": "Next.js",
+            "tag": [
+                "React",
+                "Next",
+                "Framer-motion",
+                "API",
+                "Desenvolvimento Front-end HTML/CSS/JavaScript"
+            ],
+            "description": "Criação de um aplicativo web responsivo desenvolvido com React, Next.js e Framer-motion para saber a previsão meteoróligica de uma cidade",
+            "img": "weather-app-1.jpg",
+            "github": "https://github.com/sbeou/weather-app.git",
+            "url": "https://weather-app-br.vercel.app/",
+            "images": [
+                "weather-app-1.jpg",
+                "weather-app-2.jpg"
+                
+            ]
+        },
+        {
             "id": "work_11",
             "title": "Carrousel Spiderverse App",
             "category": "Next.js",
             "tag": [
                 "React",
-                "NEXT",
+                "Next",
                 "Framer-motion",
                 "API",
                 "Desenvolvimento Front-end HTML/CSS/JavaScript"
             ],
-            "description": "Criação de um aplicativo web responsivo desenvolvido com React.js e Framer-motion para um carrousel com os diferentes universos do Homen Aranha",
+            "description": "Criação de um aplicativo web responsivo desenvolvido com React, Next.js e Framer-motion para um carrousel com os diferentes universos do Homen Aranha",
             "img": "spiderverse-1.jpg",
             "github": "https://github.com/sbeou/spider-verse.git",
             "url": "https://spiderverse-gray.vercel.app/",
@@ -64,26 +85,6 @@
                 "spiderverse-1.jpg",
                 "spiderverse-2.jpg",
                 "spiderverse-3.jpg" 
-            ]
-        },
-        {
-            "id": "work_10",
-            "title": "Weather App",
-            "category": "React",
-            "tag": [
-                "React",
-                "Redux",
-                "API",
-                "Desenvolvimento Front-end HTML/CSS/JavaScript"
-            ],
-            "description": "Criação de um aplicativo web responsivo desenvolvido com React e Redux para saber a previsão meteoróligica de uma cidade",
-            "img": "weather-app-1.jpg",
-            "github": "https://github.com/sbeou/weather-app.git",
-            "url": "https://weather-app.french.dev.br/",
-            "images": [
-                "weather-app-1.jpg",
-                "weather-app-2.jpg"
-                
             ]
         },
         {

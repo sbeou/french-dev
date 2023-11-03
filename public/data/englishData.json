@@ -46,12 +46,33 @@
     "allCat": "All",
     "works": [
         {
+            "id": "work_10",
+            "title": "Weather App",
+            "category": "Next.js",
+            "tag": [
+                "React",
+                "Next",
+                "Framer-motion",
+                "API",
+                "Front-end Development HTML/CSS/JavaScript"
+            ],
+            "description": "Creation of responsif web application build with React, Next.js and Framer-motion to know the city's weather",
+            "img": "weather-app-1.jpg",
+            "github": "https://github.com/sbeou/weather-app.git",
+            "url": "https://weather-app-br.vercel.app/",
+            "images": [
+                "weather-app-1.jpg",
+                "weather-app-2.jpg"
+                
+            ]
+        },
+        {
             "id": "work_11",
             "title": "Carrousel Spiderverse App",
             "category": "Next.js",
             "tag": [
                 "React",
-                "NEXT",
+                "Next",
                 "Framer-motion",
                 "API",
                 "Front-end Development HTML/CSS/JavaScript"
@@ -64,26 +85,6 @@
                 "spiderverse-1.jpg",
                 "spiderverse-2.jpg",
                 "spiderverse-3.jpg" 
-            ]
-        },
-        {
-            "id": "work_10",
-            "title": "Weather App",
-            "category": "React",
-            "tag": [
-                "React",
-                "Redux",
-                "API",
-                "Front-end Development HTML/CSS/JavaScript"
-            ],
-            "description": "Creation of responsif web application build with React and Redux to know the city's weather",
-            "img": "weather-app-1.jpg",
-            "github": "https://github.com/sbeou/weather-app.git",
-            "url": "https://weather-app.french.dev.br/",
-            "images": [
-                "weather-app-1.jpg",
-                "weather-app-2.jpg"
-                
             ]
         },
         {
