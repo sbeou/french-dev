@@ -34,6 +34,11 @@
         .cib-next-js {
             content: url('../../assets/next-js.svg');
         }
+        .cib-typescript {
+            content: url('../../assets/typescript.svg');
+            max-width: 36px;
+            height: auto;
+        }
     }
 }
 @media (max-width:768px) {
