@@ -48,7 +48,7 @@
         {
             "id": "work_10",
             "title": "Weather App",
-            "category": "Next.js",
+            "category": "React",
             "tag": [
                 "React",
                 "Next",
@@ -69,7 +69,7 @@
         {
             "id": "work_11",
             "title": "Carrousel Spiderverse App",
-            "category": "Next.js",
+            "category": "React",
             "tag": [
                 "React",
                 "Next",
@@ -104,25 +104,6 @@
                 "apolinarioadv-2.jpg",
                 "apolinarioadv-3.jpg"
                 
-            ]
-        },
-        {
-            "id": "work_2",
-            "title": "Argent Bank",
-            "category": "React",
-            "tag": [
-                "React",
-                "Redux",
-                "Front-end Development HTML/CSS/JavaScript"
-            ],
-            "description": "Responsif Web Application bild with React and Redux for a bank agency",
-            "img": "argent-bank-website.webp",
-            "github": "https://github.com/sbeou/argent-bank-website",
-            "url": "",
-            "images": [
-                "argentbank-1.jpg",
-                "argentbank-2.jpg",
-                "argentbank-3.jpg"
             ]
         },
         {
