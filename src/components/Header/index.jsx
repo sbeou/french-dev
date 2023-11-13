@@ -7,15 +7,15 @@ import detectBrowserLanguage from 'detect-browser-language'
 
 function Header() {
     const [language, setLanguage] = useState('english')
+    const languageBrowser = detectBrowserLanguage()
     useEffect(() => {
-        const langugeBrowser = detectBrowserLanguage()
-        if(langugeBrowser === 'pt-BR' || langugeBrowser === 'pt') {
+        if(languageBrowser === 'pt-BR' || languageBrowser === 'pt') {
             setLanguage('portugues')
         }
-        if(langugeBrowser === 'fr' || langugeBrowser === 'fr-fr' || langugeBrowser === 'fr-be' || langugeBrowser === 'fr-ca' || langugeBrowser === 'fr-lu' || langugeBrowser === 'fr-mc' || langugeBrowser === 'fr-ch') {
+        if(languageBrowser === 'fr' || languageBrowser === 'fr-fr' || languageBrowser === 'fr-be' || languageBrowser === 'fr-ca' || languageBrowser === 'fr-lu' || languageBrowser === 'fr-mc' || languageBrowser === 'fr-ch') {
             setLanguage('french')
         }
-    }, [setLanguage]) 
+    },[languageBrowser])
     const handleClick = (ref) => {
         document.getElementById(ref).scrollIntoView()
         setCollapse()
@@ -41,6 +41,7 @@ function Header() {
             dispatch(clearState());
         }
     }, [isError, dispatch]);
+    console.log(language)
     return (
         <div className="header">
             <nav>
