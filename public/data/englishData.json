@@ -54,7 +54,8 @@
                 "Next",
                 "Framer-motion",
                 "API",
-                "Front-end Development HTML/CSS/JavaScript"
+                "TypeScript",
+                "Tailwind"
             ],
             "description": "Creation of responsif web application build with React, Next.js and Framer-motion to know the city's weather",
             "img": "weather-app-1.jpg",
@@ -75,7 +76,7 @@
                 "Next",
                 "Framer-motion",
                 "API",
-                "Front-end Development HTML/CSS/JavaScript"
+                "TypeScript"
             ],
             "description": "Creation of responsif web application build with React.js and Framer-motion to do a carrousel with  differents Siperdman Univers",
             "img": "spiderverse-1.jpg",

@@ -54,7 +54,8 @@
                 "Next",
                 "Framer-motion",
                 "API",
-                "Desenvolvimento Front-end HTML/CSS/JavaScript"
+                "TypeScript",
+                "Tailwind"
             ],
             "description": "Criação de um aplicativo web responsivo desenvolvido com React, Next.js e Framer-motion para saber a previsão meteoróligica de uma cidade",
             "img": "weather-app-1.jpg",
@@ -75,7 +76,7 @@
                 "Next",
                 "Framer-motion",
                 "API",
-                "Desenvolvimento Front-end HTML/CSS/JavaScript"
+                "TypeScript"
             ],
             "description": "Criação de um aplicativo web responsivo desenvolvido com React, Next.js e Framer-motion para um carrousel com os diferentes universos do Homen Aranha",
             "img": "spiderverse-1.jpg",
