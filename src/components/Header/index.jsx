@@ -41,7 +41,6 @@ function Header() {
             dispatch(clearState());
         }
     }, [isError, dispatch]);
-    console.log(language)
     return (
         <div className="header">
             <nav>

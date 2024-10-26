@@ -46,6 +46,23 @@
     "allCat": "All",
     "works": [
         {
+            "id": "work_12",
+            "title": "L'Alternative",
+            "category": "Wordpress",
+            "tag": [
+                "Design UI",
+                "Front-end Development HTML/CSS/JavaScript"
+            ],
+            "description": "Creation of responsif website for a frecnh teacher in Salvador.",
+            "img": "lalternative.webp",
+            "url": "https://lalternative.com.br",
+            "images":[
+                "lalternative-1.webp",
+                "lalternative-2.webp",
+                "lalternative-3.webp"
+            ]
+        },
+        {
             "id": "work_10",
             "title": "Weather App",
             "category": "React",
@@ -93,7 +110,7 @@
             "title": "Mônica Aplonário",
             "category": "Design",
             "tag": [
-                "Design UX",
+                "Design UI",
                 "Branding",
                 "Front-end Development HTML/CSS/JavaScript"
             ],
@@ -148,7 +165,7 @@
             "title": "Camara Comercial Argentina Bahia",
             "category": "Wordpress",
             "tag": [
-                "Design UX",
+                "Design UI",
                 "Front-end Development HTML/CSS/JavaScript"
             ],
             "description": "Creation of responsif website for a Comercial Chamber of Argentina and Bahia State in Salvador",
@@ -183,7 +200,7 @@
             "title": "Loja Fundação José Silveira",
             "category": "E-commerce",
             "tag": [
-                "Design UX",
+                "Design UI",
                 "Front-end Development HTML/CSS/JavaScript"
             ],
             "description": "Responsif e-commerce for a filantropic institution",
@@ -201,7 +218,7 @@
             "title": "Tauri Engneria",
             "category": "Design",
             "tag": [
-                "Design UX",
+                "Design UI",
                 "Branding",
                 "Front-end Development HTML/CSS/JavaScript"
             ],
@@ -220,7 +237,7 @@
             "title": "webdesign à la française",
             "category": "Wordpress",
             "tag": [
-                "Design UX",
+                "Design UI",
                 "Programation PHP/SQL",
                 "Front-end Development HTML/CSS/JavaScript"
             ],
@@ -269,7 +286,7 @@
             "icon": "fab fa-wordpress" 
         },
         {
-            "title": "Design UX",
+            "title": "Design UI",
             "icon": "far fa-object-group" 
         },
         {
