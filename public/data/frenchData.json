@@ -3,7 +3,7 @@
         
             "title":"Sébastien Guilet",
             "job": "Développeur Front-end",
-            "tag": "{design} {intégration} {développement}",
+            "tag": "{design} {développement} {développement}",
             "description": "UX design et développeur front-end, j’ai su me diversifier pour aller toujours plus loin dans la réalisation de projets web. Je puise mon inspiration dans les dernières tendances tout en y apportant ma touche personnelle. Je conçois et réalise des sites web du cahier des charges à la mise en ligne."
         
     },
@@ -296,6 +296,13 @@
     ],
     "timeLine": [
         {
+            "title": "Développeur Front End",
+            "location": "Mosyle, Winter Park, Florida, Estado Unidos",
+            "date": "2024 - Maintenant",
+            "description": "Développemt d'aplication web, HTML, SASS/CSS, JavaScript",
+            "icon": "fad fa-briefcase"
+        },
+        {
             "title": "Formation Intégrateur Web",
             "location": "OpenClassrooms - France",
             "date": "2023",
@@ -305,8 +312,8 @@
         {
             "title": "Programeur Visuel",
             "location": "Fondation José Silveira - Salvador, Brésil",
-            "date": "2018 - Maintenant",
-            "description": "Communication visuel, Branding, création et manutention de site web (design et intégration), Photographie événementiel",
+            "date": "2018 - 2024",
+            "description": "Communication visuel, Branding, création et manutention de site web (design et développement), Photographie événementiel",
             "icon": "fad fa-briefcase"
         },
         {
@@ -317,31 +324,31 @@
             "icon": "fad fa-user-graduate"
         },
         {
-            "title": "Designer/Intégrateur Front End freelance",
+            "title": "Designer/Développeur Front End freelance",
             "location": "Salvador, Brésil",
             "date": "2014 - 2018",
-            "description": "Communication visuel, branding, création et manutention de site web (design et intégration), gestion d´hégerment web, gestion de client",
+            "description": "Communication visuel, branding, création et manutention de site web (design et développement), gestion d´hégerment web, gestion de client",
             "icon": "fad fa-briefcase"
         },
         {
-            "title": "Designer/Intégrateur Front End",
+            "title": "Designer/Développeur Front End",
             "location": "Grupo A2 - Salvador, Brésil",
             "date": "2013 - 2014",
-            "description": "Communication visuel, branding, création de site web (design et intégration)",
+            "description": "Communication visuel, branding, création de site web (design et développement)",
             "icon": "fad fa-briefcase"
         },
         {
-            "title": "Designer/Intégrateur Front End",
+            "title": "Designer/Développeur Front End",
             "location": "Digital Age - Paris, France",
             "date": "2008 - 2012",
-            "description": "Communication visuel, branding, création de site web (design et intégration)",
+            "description": "Communication visuel, branding, création de site web (design et développement)",
             "icon": "fad fa-briefcase"
         },
         {
             "title": "Formation Webmaster",
             "location": "ESIC - Paris, France",
             "date": "2008",
-            "description": "Intégration de site web (HTML, CSS, JavaScript)",
+            "description": "développement de site web (HTML, CSS, JavaScript)",
             "icon": "fad fa-user-graduate"
         },
         {

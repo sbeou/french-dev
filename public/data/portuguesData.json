@@ -294,6 +294,13 @@
     ],
     "timeLine": [
         {
+            "title": "Desenvolvedor Front End",
+            "location": "Mosyle, Winter Park, Florida, Estado Unidos",
+            "date": "2024 - Atual",
+            "description": "Desenvolvimento de aplicativo web, HTML, SASS/CSS, JavaScript",
+            "icon": "fad fa-briefcase"
+        },
+        {
             "title": "Formação Desenvolvedor Front-end",
             "location": "OpenClassrooms - França",
             "date": "2023",
@@ -303,7 +310,7 @@
         {
             "title": "Programador Visual",
             "location": "Fondação José Silveira - Salvador, Brasil",
-            "date": "2018 - Atual",
+            "date": "2018 - 2024",
             "description": "Comunicação visual, branding, criação e manutenção de site web (design e desenvolvimento), Fotografia de evento",
             "icon": "fad fa-briefcase"
         },

@@ -296,7 +296,14 @@
     ],
     "timeLine": [
         {
-            "title": "Front-end Developer Training",
+            "title": "Front End Developer",
+            "location": "Mosyle, Winter Park, Florida, United States",
+            "date": "2024 - Present",
+            "description": "Web Application development, HTML, SASS/CSS, JavaScript",
+            "icon": "fad fa-briefcase"
+        },
+        {
+            "title": "Front End Developer Training",
             "location": "OpenClassrooms- France",
             "date": "2023",
             "description": "Front-end Development (HTML, CSS, JavaScript, React, Redux), SEO Optimization, Agile project management",
@@ -305,7 +312,7 @@
         {
             "title": "Visual Programmer",
             "location": "José Silveira Fundation - Salvador, Brazil",
-            "date": "2018 - Present",
+            "date": "2018 - 24",
             "description": "Visual Communication, branding, creation and website maintenance (design and development), event photography",
             "icon": "fad fa-briefcase"
         },
